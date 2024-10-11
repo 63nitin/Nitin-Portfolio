@@ -21,16 +21,16 @@ const Photo = () => {
       transition:{delay:2.4, duration:0.4, ease:"easeInOut"},
     }}
 
-    className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+    className="w-[235px] h-[240px] xl:w-[350px] xl:h-[398px] mix-blend-lighten xl:ml-24 mt-6 absolute"
     
     >
     
         <Image 
-        src="/assets/img2.png" 
+        src="/assets/pic10.png" 
         priority quality={100}
         fill
         alt=""
-        className="object-contain" 
+        className="object-contain mt-4 ml-7 xl:ml-3" 
          />
     </motion.div>
 
