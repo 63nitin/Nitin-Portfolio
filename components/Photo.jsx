@@ -30,7 +30,7 @@ const Photo = () => {
         priority quality={100}
         fill
         alt=""
-        className="object-contain mt-4 ml-7 xl:ml-3" 
+        className="object-contain mt-6 ml-7 rounded-full xl:ml-3" 
          />
     </motion.div>
 
